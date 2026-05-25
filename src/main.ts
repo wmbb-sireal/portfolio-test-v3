@@ -6,11 +6,17 @@ import './index.css';
  * Trigger Update: 2026-05-25 (Dummy Trigger)
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+function init() {
   init3DTilt();
   initCopyToClipboard();
   initFlowSimulator();
-});
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
 
 /**
  * 1. 3D Glassmorphism Card Tilt & Light Reflection Effect
