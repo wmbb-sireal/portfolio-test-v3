@@ -1,0 +1,6 @@
+{
+  "name": "전시진 - 노코드 자동화 컨설턴트 포트폴리오",
+  "description": "노코드 자동화 컨설턴트 전시진님의 현대적이고 멋진 3D 글래스모피즘 1페이지 포트폴리오입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
