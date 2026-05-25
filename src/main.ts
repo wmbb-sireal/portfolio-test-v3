@@ -3,6 +3,7 @@ import './index.css';
 /**
  * 전시진 노코드 자동화 컨설턴트 포트폴리오
  * Core Interactive Client-Side Logic (No-React Pure HTML/CSS/TS)
+ * Trigger Update: 2026-05-25 (Dummy Trigger)
  */
 
 document.addEventListener('DOMContentLoaded', () => {
